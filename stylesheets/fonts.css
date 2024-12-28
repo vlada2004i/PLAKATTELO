@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Plakat;
+    src: url("../fonts/JetBrainsMonoExtraBold.woff") format("woff");
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Plakat;
+    src: url("../fonts/MonsieurLaDoulaise-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+}

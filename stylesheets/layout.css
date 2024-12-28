@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    display: block;
+    margin: 0 auto;
+    font-family: "Plakat";
+    .page {
+        page-break-after: always; /* Принудительный разрыв страницы после каждого блока */
+    }    
+}
+
+.color-change-box:hover {
+    background-color: darkolivegreen;
+}
+
+.color-change-box {
+    display: flex;
+    background-color: #26283B;
+    width: 1440px;
+    height: 900px;
+    flex-direction: column;
+    transition: background-color 0.5s ease;
+}
+
+.section-1 {
+    position: flex;
+}
+
+.section-1 h1 {
+    color: #FFAFB2;
+    font-size: 300px;
+    font-weight: 400;
+    margin: 150px 0 0 135px;
+}
+
+.section-1 h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    margin: -50px 0 0 790px;
+}
+
+.section-2 {
+    display: flex;
+    width: 1440px;
+    height: 90px;
+}
+
+.section-2 {
+    position: absolute;
+    right: 100%;
+    white-space: nowrap;
+    animation: marquee 3s linear infinite;
+    behavior: unset;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%); /* Начальная позиция */
+    }
+    100% {
+        transform: translateX(105%); /* Конечная позиция (выход за пределы слева) */
+    }
+}
+
+.section-3 {
+    display: flex;
+    width: 1440px;
+    height: 880px;
+    background-image: url(../images/korzina.png);
+}
+
+.section-3 .items {
+        margin: 120px 0 0 25px;
+        position: absolute;
+        animation: shake 0.5s infinite;
+    }
+    @keyframes shake {
+        0% { transform: translate(3px, 0); }
+        25% { transform: translate(-3px, 0); }
+        50% { transform: translate(3px, 0); }
+        75% { transform: translate(-3px, 0); }
+        100% { transform: translate(3px, 0); }
+    }
+    
+    .section-3 .sale1 {
+        margin: 95px 0 0 620px;
+        position: absolute;
+        
+    }
+    
+    .section-3 .sal2 {
+        margin: 95px 0 0 1030px;
+        position: absolute;
+        
+    }
+
+    .section-4 {
+        display: flex;
+        width: 1440px;
+        height: 120px;
+        background-image: url(../images/gubinonove.png);
+        margin-bottom: 500px;
+    }
+    
+    
+
+    .section-4 {
+        white-space: nowrap;
+        animation: qq 2s linear infinite;
+        behavior: unset;
+        position: absolute;
+        }
+    
+    @keyframes qq {
+        0% {
+            transform: translateX(0%); /* Начальная позиция */
+        }
+        100% {
+            transform: translateX(-100%); /* Конечная позиция (выход за пределы слева) */
+        }
+    }
+.section-5 {
+    display: flex;
+    width: 1440px;
+    height: 755px;
+    background-image: url(../images/face.png);
+    padding: 400px;
+    margin-top: 80px;
+}
+
+.section-5 .praviy {
+    position: absolute;
+    margin: -60px 0 0 300px;
+    animation: gg 2s linear infinite;
+}
+
+@keyframes gg {
+    0% {
+        transform: translateX(0%); /* Начальная позиция */
+    }
+    75% {
+        transform: translateX(-150%); /* Конечная позиция (выход за пределы слева) */
+    }
+    100% {
+        transform: translateX(-150%); /* Конечная позиция (выход за пределы слева) */
+    }
+}
+
+.section-5 .koshka {
+    position: absolute;
+    margin: -350px 0 0 500px;
+    animation: kk 2s linear infinite;
+}
+
+@keyframes kk {
+    0% {
+        transform: translateX(50%); /* Начальная позиция */
+    }
+    75% {
+        transform: translateX(-50%); /* Конечная позиция (выход за пределы слева) */
+    }
+    100% {
+        transform: translateX(-50%); /* Конечная позиция (выход за пределы слева) */
+    }
+}
+
+.section-5 .roteo {
+    position: absolute;
+    margin: 40px 0 0 700px;
+    animation: rr 2s linear infinite;
+}
+
+@keyframes rr {
+    0% {
+        transform: translateX(-30%); /* Начальная позиция */
+    }
+    75% {
+        transform: translateX(-220%); /* Конечная позиция (выход за пределы слева) */
+    }
+    100% {
+        transform: translateX(-220%); /* Конечная позиция (выход за пределы слева) */
+    }
+}
+
+.section-5 .nosik {
+    position: absolute;
+    margin: -70px 0px 0 -500px;
+    right: 80%;
+    animation: nn 2s linear infinite;
+}
+
+@keyframes nn {
+    0% {
+        transform: translateX(100%); /* Начальная позиция */
+    }
+    75% {
+        transform: translateX(470%); /* Конечная позиция (выход за пределы слева) */
+    }
+    100% {
+        transform: translateX(470%); /* Конечная позиция (выход за пределы слева) */
+    }
+}
+
+.section-5 .yshko {
+    position: absolute;
+    margin: -220px 0px 0 -100px;
+    right: 100%;
+    animation: yy 2s linear infinite;
+}
+
+@keyframes yy {
+    0% {
+        transform: translateX(100%); /* Начальная позиция */
+    }
+    75% {
+        transform: translateX(320%); /* Конечная позиция (выход за пределы слева) */
+    }
+    100% {
+        transform: translateX(320%); /* Конечная позиция (выход за пределы слева) */
+    }
+}
+
+.section-6 {
+    display: flex;
+    width: 1440px;
+    height: 120px;
+    background-image: url(../images/last.png)
+
+}
+
+
+
+.section-6 {
+    position: absolute;
+    white-space: nowrap;
+    animation: ll 5s linear infinite;
+
+    behavior: unset;
+    }
+
+@keyframes ll {
+    0% {
+        transform: translateX(0%); /* Начальная позиция */
+    }
+    50% {
+        transform: translateX(-110%); /* Конечная позиция (выход за пределы слева) */
+    }
+
+    100% {
+        transform: translateX(0%); /* Конечная позиция (выход за пределы слева) */
+    }
+}
+
+.section-7 {
+    display: flex;
+    width: 1440px;
+    height: 169px;
+    background-color: #26283B;
+    margin-top: 80px;
+}
+
+.section-7 .podval {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 100px 0 0 50px;
+}
+
+.section-7 .podval2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 100px 0 0 600px;
+}
